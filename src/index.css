@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* navbar  */
+.header__right{
+  padding-left:200px !important;
+
+}
+.nav-link{
+  color: black !important;
+}
+.dangnhap{
+ padding-top: 15px;
+}
+.header__right .nav-item a:hover{
+  color:#007bff !important;
+  text-decoration: none;
+}
+.dangNhap .dangNhapUser a:hover{
+  color:yellow !important;
+}
+/* new */
+
+.news__title{
+  list-style: none;
+  padding-left: 0;
+}
+.news__title {
+  justify-content: center;
+  align-items: center;
+}
+.news__dienanh{
+  color: orange !important;
+  font-size: 30px;
+}
+.news__items{
+  margin: 0 80px !important;
+}
+.news__item__img{
+  height:280px;
+  width: 450px;
+ 
+}
+.news__items img{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.news__item__img__child{
+  width: 300px;
+  height: 200px;
+}
+.news__item__small__img{
+  width: 140px;
+  height: 80px;
+  margin-right: 5px;
+}
+.news h5{
+  font-size: 16px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  transition: color .2s;
+  margin-bottom: 5px;
+  height: 32px;
+  -webkit-line-clamp:2;
+}
+.news h5 a{
+  text-decoration: none;
+  color: black;
+}
+.news h5 a:hover{
+  transition: 0.5;
+  color: orange;
+}
+.news .news__item__small .news__title_small a:hover{
+  transition: 2 !important;
+  color: orange !important;
+}
+.news p{
+  font-size: 13px;
+  color: #4a4a4a;
+  text-align: justify;
+  padding: 0 5px 0 0 ;
+  line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 70px;
+  margin-top: 15px;
+  margin-bottom: -10px;
+}
+.news__title_small{
+  font-size:15px !important ;
+}
+
+.news__title_small a{
+  color:  #4a4a4a !important;
+}
+.news__title .news__review:hover{
+  transition: 0.5 !important;
+  color: orange !important;
+}
+/* listfilm */
+
+
+
+.previous{
+  position: absolute;
+  top: 156%;
+  left: 4%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  background-color: rgb(80, 192, 65) !important;
+  /* box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  z-index: 3;
+  span {
+      line-height: 20px;
+
+  }
+  &:focus {
+      outline: none !important;
+      border: none !important;
+  } */
+}
+.next{
+  position: absolute;
+  top: 156%;
+  right: 4%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  background-color:  rgb(80, 192, 65) !important;
+} 
+.card{
+  width: 100%;
+  height: 350px;
+  padding: 0 30px;
+  border: 0 !important;
+  margin-bottom: 40px;
+  
+}
+.card .card-img{
+  width: 100%;
+  height: 300px;
+ 
+}
+.card .card-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 3px !important;
+}
+.tenFilm{
+  height: 30px;
+}
+/* chi tiet film  */
+.BG__chitietfilm{
+  background-image:  url(https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg);
+  background-repeat: none;
+  background-size: cover;
+}
+.BG__chitietfilm p{
+  color: whitesmoke;
+}
+/* table user  */
+/* .tableUser{
+  width: 1000px !important;
+} */
+/* .table{
+  width:500px !important;
+} */
+/* page not found  */
+/* body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.pageNotFound .wrap{
+	width:1000px;
+	margin:0 auto;
+}
+.pageNotFound .logo{
+	width:430px;
+	position:absolute;
+	top:25%;
+	left:35%;
+}
+.pageNotFound p a{
+	color:#eee;
+	font-size:13px;
+	margin-left:30px;
+	padding:5px;
+	background:#FF3366;
+	text-decoration:none;
+	-webkit-border-radius:.3em;
+	   -moz-border-radius:.3em;
+	        border-radius:.3em;
+}
+.pageNotFound p a:hover{
+	color: #fff;
+}
+.pageNotFound .footer{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	font-size:12px;
+	color:#aaa;
+}
+.pageNotFound .footer a{
+	color:#666;
+	text-decoration:none;
+} */
+/* auththen page  */
+.AuthPage{
+  background-image: url(https://i2.wp.com/i.imgur.com/cVEwi9i.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height: 677px;
+}
